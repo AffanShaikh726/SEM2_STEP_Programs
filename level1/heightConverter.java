@@ -5,7 +5,7 @@ public class heightConverter {
 		double height;
 		System.out.println("Enter height(in cm) ");
 		Scanner input = new Scanner(System.in);
-		height = input.nextInt();
+		height = input.nextDouble();
 		double inchFactor = 2.54;//1 inch = 2.54cm
 		double heightInInches = height/2.54;
 		double feetFactor = 12;//1 foot = 12 inches

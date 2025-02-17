@@ -5,7 +5,7 @@ public class DistanceConverter {
 		double feet;
 		System.out.println("Enter distance(in feet) ");
 		Scanner input = new Scanner(System.in);
-		feet = input.nextInt();
+		feet = input.nextDouble();
 		double yardFactor = 3;//1 yard = 3feet
 		double distInYards = feet/yardFactor;
 		

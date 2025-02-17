@@ -7,9 +7,9 @@ public class Operations {
 		int c;
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter 3 numbers : ");
-		a = input.nextInt();
-		b = input.nextInt();
-		c = input.nextInt();
+		a = input.nextDouble();
+		b = input.nextDouble();
+		c = input.nextDouble();
 		int op1 = a + b *c;
 		int op2 = a * b + c;
 		int op3 = c + a / b;

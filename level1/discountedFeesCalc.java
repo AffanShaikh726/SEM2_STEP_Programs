@@ -4,7 +4,7 @@ public class discountedFeesCalc {
 	public static void main(String[] args) {
 		double fees;
 		Scanner input = new Scanner(System.in);
-		fees = input.nextInt();
+		fees = input.nextDouble();
 		double discountPercent = 10;
 		double discount = discountPercent * (fees/100);
 		double discountedAmount = fees - discount;

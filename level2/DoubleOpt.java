@@ -7,9 +7,9 @@ public class DoubleOpt {
 		double c;
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter 3 numbers : ");
-		a = input.nextInt();
-		b = input.nextInt();
-		c = input.nextInt();
+		a = input.nextDouble();
+		b = input.nextDouble();
+		c = input.nextDouble();
 		double op1 = a + b * c;
 		double op2 = a * b + c;
 		double op3 = c + a / b;

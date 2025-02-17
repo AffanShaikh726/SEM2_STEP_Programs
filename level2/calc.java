@@ -6,8 +6,8 @@ public class calc {
 		double number2;
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter two numbers : ");
-		number1 = input.nextInt();
-		number2 = input.nextInt();
+		number1 = input.nextDouble();
+		number2 = input.nextDouble();
 		System.out.println("Addition result : " + (number1+number2));
 		System.out.println("Subtraction result : " + (number1-number2));
 		System.out.println("Multiplication result : " + (number1*number2));
