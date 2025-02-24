@@ -3,8 +3,10 @@ import java.util.Scanner;
 public class SpringOrNot {
     public static void main(String[] args) {               
         Scanner input = new Scanner(System.in);
+        
         System.out.println("enter day");
         int day = input.nextInt();
+
         System.out.println("enter month");
         int month = input.nextInt();
 
