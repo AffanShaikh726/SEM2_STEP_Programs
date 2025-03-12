@@ -9,4 +9,5 @@ public class volOfEarth {
 		double volInMiles = (4/3) * 3.14* Math.pow(radiusOfEarthInMiles, 3);
 		System.out.println("The volume of earth in cubic kilometers is " + volInKm + " and cubic miles is " + volInMiles);
 	}
+	
 }
