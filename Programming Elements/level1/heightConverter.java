@@ -6,10 +6,11 @@ public class heightConverter {
 		System.out.println("Enter height(in cm) ");
 		Scanner input = new Scanner(System.in);
 		height = input.nextDouble();
-		double inchFactor = 2.54;//1 inch = 2.54cm
+		//1 inch = 2.54cm
 		double heightInInches = height/2.54;
-		double feetFactor = 12;//1 foot = 12 inches
+		//1 foot = 12 inches
 		double heightInFeet = heightInInches/12;
 		System.out.println("Your Height in cm is " + height + " while in feet is " + heightInFeet + " and inches is " + heightInInches);
+		input.close();
 	}
 }

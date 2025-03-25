@@ -14,5 +14,6 @@ class CheckPNZ{
 		else{
 			System.out.println("number is 0");
 			}
+		input.close();
 	}
 }

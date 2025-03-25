@@ -8,5 +8,6 @@ public class kmToMileConverter {
 		double mileFactor = 1.6;//1 km = 1.6 miles
 		double requiredMiles = km*mileFactor;
 		System.out.println("The distance " + km + " km in miles is " + requiredMiles);
+		input.close();
 	}
 }
