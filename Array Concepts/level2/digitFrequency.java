@@ -49,17 +49,7 @@ public class digitFrequency {
             System.out.println(arr[0] + ":"  + frequencyArr[0]);
         } 
         else {
-            for (int j = frequencyArr.length-1; j >= 0; j--) {
-                // if (frequencyArr[j] > 1) {
-                //only works till first element cos 0-1 becomes -1 and it is not an index
-                //     if (frequencyArr[j] != frequencyArr[j-1]) {
-                //         System.out.println(arr[j] + ":"  + frequencyArr[j]);
-                //     } 
-                // } 
-                // else {
-                //     System.out.println(arr[j] + ":"  + frequencyArr[j]);
-                // }
-                
+            for (int j = frequencyArr.length-1; j >= 0; j--) {                
                 System.out.println(arr[j] + ":"  + frequencyArr[j]);
             }
         }
