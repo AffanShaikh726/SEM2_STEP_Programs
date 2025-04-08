@@ -4,7 +4,7 @@ public class handshakesMethod {
 	
 	public double combination (int n) {
         double result =  (n * (n-1))/2;
-		return result;
+		return result
 	} ;
 		
 	public static void main(String[] args) {
