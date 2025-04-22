@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class numberType {
 
-    public static int checkNumberType(int num) {
+    public int checkNumberType(int num) {
         if (num > 0) {
             return 1;
         } else if (num < 0) {
